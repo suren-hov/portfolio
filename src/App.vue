@@ -1,6 +1,9 @@
 <template>
   <v-app :theme="theme">
     <v-app-bar>
+      <v-btn :prepend-icon="'mdi-download'" @click="downloadPdf">
+        Download PDF
+      </v-btn>
       <v-spacer></v-spacer>
       <v-btn :prepend-icon="theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'" @click="onToggleTheme">
         Toggle Theme
@@ -27,6 +30,19 @@ onMounted(() => {
 function onToggleTheme() {
   theme.value = theme.value === 'light' ? 'dark' : 'light'
   setTheme()
+}
+
+function downloadPdf() {
+  // create element <a> for download PDF
+  const link = document.createElement('a');
+  link.href = 'resume-suren-hov.pdf';
+  link.target = '_blank';
+  link.download = 'resume-suren-hov.pdf';
+
+  // Simulate a click on the element <a>
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 function getBrowserTheme() {
