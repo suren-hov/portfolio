@@ -30,46 +30,46 @@ const timelines = reactive([
     id: 0,
     icon: 'mdi-book-education',
     color: 'cyan lighten-1',
-    title: 'Petro Mohyla Black Sea National University',
+    title: 'National Polytechnical University of Armenia',
     position: 'Software Engineer',
-    period: 'SEP 2018 — JUN 2022',
+    period: 'SEP 2015 — JUN 2021',
     description: 'Bachelor of Software Engineer'
   },
   {
     id: 1,
     icon: 'mdi-briefcase-variant',
     color: 'amber darken-1',
-    title: 'FluidWeb',
-    position: 'Trainee',
-    period: 'JUN — AUG 2021',
-    description: 'Build landing pages & make E2E testing with Cypress.js'
+    title: 'Serious Web',
+    position: 'Student',
+    period: 'JAN — AUG 2021',
+    description: 'Build landing pages & make games'
   },
   {
     id: 2,
     icon: 'mdi-briefcase-variant',
     color: 'blue-darken-3',
-    title: 'TrackEnsure',
-    position: 'Data Specialist',
-    period: 'AUG 2021 — MAY 2022',
-    description: 'Monitoring logistical data'
+    title: 'DEEP Agency',
+    position: 'Front-end developer',
+    period: 'JUN — OCT 2021',
+    description: 'Build landing pages & Wordpress projects'
   },
   {
     id: 3,
     icon: 'mdi-briefcase-variant',
     color: 'blue-grey',
-    title: 'Moonion',
-    position: 'PHP Back-end developer',
-    period: 'JUN — SEP 2022',
-    description: 'API integration to e-commerce based on PHP yii2 framework'
+    title: 'Serious Web',
+    position: 'Full-stack developer',
+    period: 'OCT 2021 — DEC 2022',
+    description: 'API integration to e-commerce based on PHP Laravel framework'
   },
   {
     id: 4,
     icon: 'mdi-briefcase-variant',
     color: 'deep-orange-lighten-1',
-    title: 'TuneLab',
-    position: 'Full-stack developer',
+    title: 'Cretrix',
+    position: 'Back-end developer',
     period: 'DEC 2022 — NOWADAYS',
-    description: 'Developing finTech application from scratch with Laravel 9, Vue.js 3 and Inertia.js'
+    description: 'Developing the big business application with Ruby on Rails'
   },
 ])
 </script>

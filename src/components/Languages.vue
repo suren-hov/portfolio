@@ -24,12 +24,12 @@ defineProps({
 
 const languages = reactive([
   {
-    name: 'Ukrainian',
+    name: 'Armenian',
     value: 100
   },
   {
     name: 'Russian',
-    value: 100
+    value: 70
   },
   {
     name: 'English',
