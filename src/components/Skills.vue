@@ -63,14 +63,14 @@ const skills = reactive({
     {
       id: 1,
       option: 1,
-      name: 'PHP/Laravel',
-      experience: '2 years',
+      name: 'Ruby and Rails',
+      experience: '2 year',
     },
     {
       id: 2,
       option: 1,
-      name: 'Ruby and Rails',
-      experience: '2 year',
+      name: 'PHP/Laravel',
+      experience: '2 years',
     },
     {
       id: 3,
