@@ -3,12 +3,12 @@
     <div class="profile">
       <div class="profile__image">
         <v-avatar :size="smAndDown ? 200 : 300">
-          <v-img src="avatar.jpg" lazy-src="avatar.jpg" alt="Profile avatar" title="Profile avatar"></v-img>
+          <v-img src="avatar.png" lazy-src="avatar.jpg" alt="Profile avatar" title="Profile avatar"></v-img>
         </v-avatar>
       </div>
       <div class="profile__text">
-        <h1 class="text-uppercase font-weight-regular text-deep-purple-accent-1" :class="xs ? 'text-h3' : 'text-h2'">{{ profile.fullName }}</h1>
-        <h2 class="text-h5 text-uppercase font-weight-light mt-5 text-deep-purple-lighten-1">{{ profile.position }}</h2>
+        <h1 class="text-uppercase font-weight-regular mt-6 text-deep-purple-accent-1" :class="xs ? 'text-h3' : 'text-h2'">{{ profile.fullName }}</h1>
+        <h5 class="text-h5 font-weight-light mt-6 text-deep-purple-lighten-1">{{ profile.description }}</h5>
       </div>
     </div>
     <div class="block">
@@ -45,7 +45,7 @@ const { xs, sm, smAndDown, md, mdAndDown } = useDisplay()
 
 const profile = reactive({
   fullName: 'Suren Hovhannisyan',
-  position: 'Full-stack web developer'
+  description: 'I am a versatile Software Engineer with over 4 years of experience specializing in full-stack and back-end development. My expertise spans multiple programming languages including Ruby, PHP and JavaScript. I started my career at Serious Web Company, where I honed my skills in Laravel and Vue.js as a Full Stack Developer. I then transitioned to Cretrix LLC, diving into Ruby on Rails to develop a large-scale project handling high concurrency and massive data sets.'
 })
 </script>
 
